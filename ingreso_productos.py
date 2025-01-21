@@ -23,7 +23,7 @@ class IngresoProductos(QWidget):
 
         self.form_layout.addRow("Nombre del Producto:", self.input_nombre_producto)
         self.form_layout.addRow("Tipo de Producto:", self.input_tipo_producto)
-        self.form_layout.addRow("Precio Unitario:", self.input_precio_producto)
+        self.form_layout.addRow("Precio de Compra:", self.input_precio_producto)
         self.form_layout.addRow("Descripción:", self.input_descripcion_producto)
 
         # Botón para guardar el producto
